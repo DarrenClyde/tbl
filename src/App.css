@@ -1,0 +1,89 @@
+.main {
+  width: 800px;
+  margin: 0 auto;
+  /* border: 1px solid grey; */
+}
+
+button {
+  border: 0;
+  background: transparent;
+  padding: 8px 20px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.15s ease-in-out;
+}
+
+.tab:hover {
+  background: #caf0f8;
+}
+
+.tab.active {
+  background: #0077b6;
+  color: #fff;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action {
+  background: #02c39a;
+  color: #fff;
+  border: 2px solid #00ddad;
+  font-weight: 600;
+}
+
+.action:hover {
+  background: #00ddad;
+}
+
+.results {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  background-color: rgb(233, 233, 233);
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+tr:nth-child(2n) {
+  background: rgb(248, 248, 248);
+}
+
+td {
+  padding: 12px 20px;
+}
+
+.bordered {
+  border: 1px solid rgb(233, 233, 233);
+}
+
+.bordered:hover {
+  border-color: #caf0f8;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination .tab {
+  margin: 6px;
+}
+
+.loadingBox {
+  display: flex;
+  justify-content: center;
+}
+
+.loading {
+  width: 60px;
+  height: 60px;
+  margin: 30px auto;
+}
